@@ -63,9 +63,11 @@ Deploy Your Project Locally
 
 
         astro dev stop
-        astro dev start --compose-file docker-compose.override.yaml 
+        astro dev start --compose-file docker-compose.override.yaml
+           or
+       docker compose -f docker-compose.override.yaml up
 
-6. To delete volume
+7. To delete volume
 
         astro dev kill
 

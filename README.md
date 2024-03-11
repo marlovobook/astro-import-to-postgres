@@ -215,7 +215,7 @@ Dag explain
     ```
 
     **Note**
-    {ds} is a `Jinja Templating` that ariflow has provided, it will extract the DAG run’s logical date
+    {ds} is a `Jinja Templating` that airflow has provided, it will extract the DAG run’s logical date
 
     For example,
 
